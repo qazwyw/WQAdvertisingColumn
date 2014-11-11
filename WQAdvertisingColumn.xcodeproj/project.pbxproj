@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB5A2CE51A0C68F100E35D0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A2CE41A0C68F100E35D0A /* main.m */; };
+		FB5A2CE81A0C68F100E35D0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A2CE71A0C68F100E35D0A /* AppDelegate.m */; };
+		FB5A2CEB1A0C68F100E35D0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A2CEA1A0C68F100E35D0A /* ViewController.m */; };
+		FB5A2CEE1A0C68F100E35D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5A2CEC1A0C68F100E35D0A /* Main.storyboard */; };
+		FB5A2CF01A0C68F100E35D0A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5A2CEF1A0C68F100E35D0A /* Images.xcassets */; };
+		FB5A2CF31A0C68F100E35D0A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5A2CF11A0C68F100E35D0A /* LaunchScreen.xib */; };
+		FB5A2CFF1A0C68F100E35D0A /* WQAdvertisingColumnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A2CFE1A0C68F100E35D0A /* WQAdvertisingColumnTests.m */; };
+		FB5A2D431A0C6E8700E35D0A /* banner3.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A2D401A0C6E8700E35D0A /* banner3.png */; };
+		FB5A2D441A0C6E8700E35D0A /* banner1.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A2D411A0C6E8700E35D0A /* banner1.png */; };
+		FB5A2D451A0C6E8700E35D0A /* banner2.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A2D421A0C6E8700E35D0A /* banner2.png */; };
+		FB5A2D481A0C73F000E35D0A /* WQAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5A2D471A0C73F000E35D0A /* WQAdView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB5A2CF91A0C68F100E35D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5A2CD71A0C68F100E35D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB5A2CDE1A0C68F100E35D0A;
+			remoteInfo = WQAdvertisingColumn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB5A2CDF1A0C68F100E35D0A /* WQAdvertisingColumn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WQAdvertisingColumn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5A2CE31A0C68F100E35D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5A2CE41A0C68F100E35D0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB5A2CE61A0C68F100E35D0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB5A2CE71A0C68F100E35D0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB5A2CE91A0C68F100E35D0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB5A2CEA1A0C68F100E35D0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB5A2CED1A0C68F100E35D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB5A2CEF1A0C68F100E35D0A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB5A2CF21A0C68F100E35D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB5A2CF81A0C68F100E35D0A /* WQAdvertisingColumnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WQAdvertisingColumnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB5A2CFD1A0C68F100E35D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5A2CFE1A0C68F100E35D0A /* WQAdvertisingColumnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WQAdvertisingColumnTests.m; sourceTree = "<group>"; };
+		FB5A2D401A0C6E8700E35D0A /* banner3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner3.png; sourceTree = "<group>"; };
+		FB5A2D411A0C6E8700E35D0A /* banner1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner1.png; sourceTree = "<group>"; };
+		FB5A2D421A0C6E8700E35D0A /* banner2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner2.png; sourceTree = "<group>"; };
+		FB5A2D461A0C73F000E35D0A /* WQAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WQAdView.h; path = ../WQAdView.h; sourceTree = "<group>"; };
+		FB5A2D471A0C73F000E35D0A /* WQAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WQAdView.m; path = ../WQAdView.m; sourceTree = "<group>"; };
+		FB5A2D491A0C764200E35D0A /* WQComonDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WQComonDefine.h; sourceTree = "<group>"; };
+		FB5A2D4A1A0C771E00E35D0A /* WQAdvertisingColumn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WQAdvertisingColumn-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB5A2CDC1A0C68F100E35D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5A2CF51A0C68F100E35D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB5A2CD61A0C68F100E35D0A = {
+			isa = PBXGroup;
+			children = (
+				FB5A2CE11A0C68F100E35D0A /* WQAdvertisingColumn */,
+				FB5A2CFB1A0C68F100E35D0A /* WQAdvertisingColumnTests */,
+				FB5A2CE01A0C68F100E35D0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB5A2CE01A0C68F100E35D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A2CDF1A0C68F100E35D0A /* WQAdvertisingColumn.app */,
+				FB5A2CF81A0C68F100E35D0A /* WQAdvertisingColumnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5A2CE11A0C68F100E35D0A /* WQAdvertisingColumn */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A2D401A0C6E8700E35D0A /* banner3.png */,
+				FB5A2D411A0C6E8700E35D0A /* banner1.png */,
+				FB5A2D421A0C6E8700E35D0A /* banner2.png */,
+				FB5A2CE61A0C68F100E35D0A /* AppDelegate.h */,
+				FB5A2CE71A0C68F100E35D0A /* AppDelegate.m */,
+				FB5A2CE91A0C68F100E35D0A /* ViewController.h */,
+				FB5A2CEA1A0C68F100E35D0A /* ViewController.m */,
+				FB5A2D461A0C73F000E35D0A /* WQAdView.h */,
+				FB5A2D471A0C73F000E35D0A /* WQAdView.m */,
+				FB5A2D491A0C764200E35D0A /* WQComonDefine.h */,
+				FB5A2CEC1A0C68F100E35D0A /* Main.storyboard */,
+				FB5A2CEF1A0C68F100E35D0A /* Images.xcassets */,
+				FB5A2CF11A0C68F100E35D0A /* LaunchScreen.xib */,
+				FB5A2CE21A0C68F100E35D0A /* Supporting Files */,
+			);
+			path = WQAdvertisingColumn;
+			sourceTree = "<group>";
+		};
+		FB5A2CE21A0C68F100E35D0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A2D4A1A0C771E00E35D0A /* WQAdvertisingColumn-Prefix.pch */,
+				FB5A2CE31A0C68F100E35D0A /* Info.plist */,
+				FB5A2CE41A0C68F100E35D0A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB5A2CFB1A0C68F100E35D0A /* WQAdvertisingColumnTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A2CFE1A0C68F100E35D0A /* WQAdvertisingColumnTests.m */,
+				FB5A2CFC1A0C68F100E35D0A /* Supporting Files */,
+			);
+			path = WQAdvertisingColumnTests;
+			sourceTree = "<group>";
+		};
+		FB5A2CFC1A0C68F100E35D0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB5A2CFD1A0C68F100E35D0A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB5A2CDE1A0C68F100E35D0A /* WQAdvertisingColumn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5A2D021A0C68F100E35D0A /* Build configuration list for PBXNativeTarget "WQAdvertisingColumn" */;
+			buildPhases = (
+				FB5A2CDB1A0C68F100E35D0A /* Sources */,
+				FB5A2CDC1A0C68F100E35D0A /* Frameworks */,
+				FB5A2CDD1A0C68F100E35D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WQAdvertisingColumn;
+			productName = WQAdvertisingColumn;
+			productReference = FB5A2CDF1A0C68F100E35D0A /* WQAdvertisingColumn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB5A2CF71A0C68F100E35D0A /* WQAdvertisingColumnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB5A2D051A0C68F100E35D0A /* Build configuration list for PBXNativeTarget "WQAdvertisingColumnTests" */;
+			buildPhases = (
+				FB5A2CF41A0C68F100E35D0A /* Sources */,
+				FB5A2CF51A0C68F100E35D0A /* Frameworks */,
+				FB5A2CF61A0C68F100E35D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB5A2CFA1A0C68F100E35D0A /* PBXTargetDependency */,
+			);
+			name = WQAdvertisingColumnTests;
+			productName = WQAdvertisingColumnTests;
+			productReference = FB5A2CF81A0C68F100E35D0A /* WQAdvertisingColumnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5A2CD71A0C68F100E35D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = com.wyw;
+				TargetAttributes = {
+					FB5A2CDE1A0C68F100E35D0A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					FB5A2CF71A0C68F100E35D0A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = FB5A2CDE1A0C68F100E35D0A;
+					};
+				};
+			};
+			buildConfigurationList = FB5A2CDA1A0C68F100E35D0A /* Build configuration list for PBXProject "WQAdvertisingColumn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB5A2CD61A0C68F100E35D0A;
+			productRefGroup = FB5A2CE01A0C68F100E35D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB5A2CDE1A0C68F100E35D0A /* WQAdvertisingColumn */,
+				FB5A2CF71A0C68F100E35D0A /* WQAdvertisingColumnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB5A2CDD1A0C68F100E35D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5A2D431A0C6E8700E35D0A /* banner3.png in Resources */,
+				FB5A2D441A0C6E8700E35D0A /* banner1.png in Resources */,
+				FB5A2CEE1A0C68F100E35D0A /* Main.storyboard in Resources */,
+				FB5A2CF31A0C68F100E35D0A /* LaunchScreen.xib in Resources */,
+				FB5A2D451A0C6E8700E35D0A /* banner2.png in Resources */,
+				FB5A2CF01A0C68F100E35D0A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5A2CF61A0C68F100E35D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB5A2CDB1A0C68F100E35D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5A2CEB1A0C68F100E35D0A /* ViewController.m in Sources */,
+				FB5A2D481A0C73F000E35D0A /* WQAdView.m in Sources */,
+				FB5A2CE81A0C68F100E35D0A /* AppDelegate.m in Sources */,
+				FB5A2CE51A0C68F100E35D0A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5A2CF41A0C68F100E35D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5A2CFF1A0C68F100E35D0A /* WQAdvertisingColumnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB5A2CFA1A0C68F100E35D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB5A2CDE1A0C68F100E35D0A /* WQAdvertisingColumn */;
+			targetProxy = FB5A2CF91A0C68F100E35D0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB5A2CEC1A0C68F100E35D0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5A2CED1A0C68F100E35D0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB5A2CF11A0C68F100E35D0A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5A2CF21A0C68F100E35D0A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB5A2D001A0C68F100E35D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB5A2D011A0C68F100E35D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB5A2D031A0C68F100E35D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WQAdvertisingColumn/WQAdvertisingColumn-Prefix.pch";
+				INFOPLIST_FILE = WQAdvertisingColumn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB5A2D041A0C68F100E35D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WQAdvertisingColumn/WQAdvertisingColumn-Prefix.pch";
+				INFOPLIST_FILE = WQAdvertisingColumn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB5A2D061A0C68F100E35D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WQAdvertisingColumnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WQAdvertisingColumn.app/WQAdvertisingColumn";
+			};
+			name = Debug;
+		};
+		FB5A2D071A0C68F100E35D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WQAdvertisingColumnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WQAdvertisingColumn.app/WQAdvertisingColumn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB5A2CDA1A0C68F100E35D0A /* Build configuration list for PBXProject "WQAdvertisingColumn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5A2D001A0C68F100E35D0A /* Debug */,
+				FB5A2D011A0C68F100E35D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB5A2D021A0C68F100E35D0A /* Build configuration list for PBXNativeTarget "WQAdvertisingColumn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5A2D031A0C68F100E35D0A /* Debug */,
+				FB5A2D041A0C68F100E35D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FB5A2D051A0C68F100E35D0A /* Build configuration list for PBXNativeTarget "WQAdvertisingColumnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5A2D061A0C68F100E35D0A /* Debug */,
+				FB5A2D071A0C68F100E35D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5A2CD71A0C68F100E35D0A /* Project object */;
+}
